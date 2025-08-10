@@ -10,8 +10,7 @@ const layout = ({
   return (
     <>
       <MainNav />
-      <MobNav />
-      <main className="container mx-auto">{children}</main>
+      <main className="container mx-auto">{children}</main> <MobNav />
     </>
   );
 };

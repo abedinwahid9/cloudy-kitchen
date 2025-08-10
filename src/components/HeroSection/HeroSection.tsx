@@ -3,7 +3,7 @@ import hero from "@/assets/hero.png";
 
 const HeroSection = () => {
   return (
-    <div>
+    <div className="mt-20">
       <Image
         className="w-full h-full"
         src={hero}
