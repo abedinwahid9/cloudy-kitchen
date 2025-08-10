@@ -1,4 +1,5 @@
 import MainNav from "@/components/Navbar/MainNav";
+import MobNav from "@/components/Navbar/MobNav";
 import React from "react";
 
 const layout = ({
@@ -9,7 +10,8 @@ const layout = ({
   return (
     <>
       <MainNav />
-      {children}
+      <MobNav />
+      <main className="container mx-auto">{children}</main>
     </>
   );
 };

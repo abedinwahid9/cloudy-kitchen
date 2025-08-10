@@ -1,3 +1,4 @@
+import HeroSection from "@/components/HeroSection/HeroSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,8 +9,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div>
-      <h3>jh</h3>
-    </div>
+    <>
+      <HeroSection />
+    </>
   );
 }
